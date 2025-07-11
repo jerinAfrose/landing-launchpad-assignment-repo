@@ -180,12 +180,22 @@ nav{
     margin: 20px 0;
 }
 /* touch section style */
-.touch-column{
+.touch{
     display: flex;
-    margin: 92px 150px 0 150px;
-    width: 50%;
-    text-align: center;
+    gap: 100px;
+    margin: 92px 250px 0 250px;
+    padding: 71px 0;
     align-items: center;
+    margin-bottom: 10px;
+
+}
+.touch-column{
+    /* display: flex; */
+    /* gap: 40px; */
+    /* margin: 92px 150px 0 150px; */
+    width: 50%;
+    text-align: left;
+    /* align-items: center; */
 }
 .touch-title{
     font-size: 97px;
@@ -202,7 +212,7 @@ nav{
     display: block;
     width: 100%;
     padding: 20px 32px;
-    margin: 24px;
+    /* margin: 24px; */
     border: #cad3ea;
     font-size: 16px;
 } 
@@ -214,7 +224,7 @@ nav{
     display: block;
     width: 100%;
     padding: 20px 32px;
-    margin: 24px;
+    /* margin: 24px; */
     border: #cad3ea;
     font-size: 16px;
 }
@@ -226,7 +236,15 @@ nav{
     display: block;
     width: 100%;
     padding: 20px 32px;
-    margin: 24px;
+    /* margin: 24px; */
     border: #cad3ea;
     font-size: 16px;
+}
+.touch-column label{
+    display: block;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    width: 100px;
+    text-align: left;
 }
