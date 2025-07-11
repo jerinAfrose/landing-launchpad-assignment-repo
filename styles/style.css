@@ -18,6 +18,10 @@
     align-items: center;
 }
 .secondary-bg{
+    background-color: rgba(164, 161, 250, 0.1);
+    margin: 116px 159px 0 141px;
+}
+.user-bg{
     background-color: rgba(78, 71, 255, 0.1);
     margin: 116px 159px 0 141px;
 }
@@ -174,4 +178,55 @@ nav{
     color: rgba(0, 0, 0, 0.5);
     text-align: center;
     margin: 20px 0;
+}
+/* touch section style */
+.touch-column{
+    display: flex;
+    margin: 92px 150px 0 150px;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+}
+.touch-title{
+    font-size: 97px;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    padding: 129px 115px 129px 0;
+}
+.touch-column input[type="text"]{
+    height: 70px;
+    border-radius: 10px;
+    background-color: white;
+    color: #D6DDED;
+    display: block;
+    width: 100%;
+    padding: 20px 32px;
+    margin: 24px;
+    border: #cad3ea;
+    font-size: 16px;
+} 
+.touch-column input[type="email"]{
+    height: 70px;
+    border-radius: 10px;
+    background-color: white;
+    color: #D6DDED;
+    display: block;
+    width: 100%;
+    padding: 20px 32px;
+    margin: 24px;
+    border: #cad3ea;
+    font-size: 16px;
+}
+.touch-column textarea{
+    height: 70px;
+    border-radius: 10px;
+    background-color: white;
+    color: #D6DDED;
+    display: block;
+    width: 100%;
+    padding: 20px 32px;
+    margin: 24px;
+    border: #cad3ea;
+    font-size: 16px;
 }
