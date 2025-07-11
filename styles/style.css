@@ -25,6 +25,9 @@
     background-color: rgba(78, 71, 255, 0.1);
     margin: 116px 159px 0 141px;
 }
+.last-bg{
+    color: white;
+}
 .text-primary{
     color: #4E47FF;
 }
@@ -247,4 +250,41 @@ nav{
     font-weight: 400;
     width: 100px;
     text-align: left;
+}
+
+/* footer style */
+footer{
+    text-align: center;
+    margin: 104px 455px 103px 454px;
+
+}
+.footer-title{
+    font-size: 100px;
+    font-weight: bolder;
+    color: black;
+    margin: 0;
+}
+.footer-description{
+    font-size: 20px;
+    color: #8987A1;
+    text-align: center;
+    margin: 8px 120px 44px 120px;
+}
+footer ul{
+    display: flex;
+    /* gap: 5px; */
+    /* align-items: center; */
+    justify-content: space-around;
+    margin: 15px 380px 103px 380px;
+    /* text-align: center; */
+}
+footer ul li{
+    list-style: none;
+    /* text-align: center; */
+}
+footer li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #8987A1;
+    /* text-align: center; */
 }
